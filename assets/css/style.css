@@ -1,0 +1,8 @@
+/* Linear Gradient */
+.a{
+    width: 800px;
+    height: 250px;
+    margin: 50px auto;
+    border: 1px solid red;
+    background: linear-gradient(to top, red, green, blue);
+}
