@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+}
+
+.a {
+    width: vw100;
+    height: 1000px;
+    background-color: #fff;
+}
+
+/* Position - Fixed 
+moves on position of viewport but float, loose it's position, other element take it's position
+.b1 {
+    width: 80%;
+    height: 100px;
+    background-color: red;
+}
+
+.b2 {
+    width: 80%;
+    height: 100px;
+    background-color: green;
+    }
+    
+.b3 {
+    width: 80%;
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    top: 70%;
+    right: 0%;
+    top left right and bottom all works for Fixed Position
+    }
+*/
+
+/* Position - Sticky 
+.b1 {
+    width: 80%;
+    height: 100px;
+    background-color: red;
+    }
+    
+.b2 {
+    width: 80%;
+    height: 100px;
+    background-color: green;
+    }
+    
+    .b3 {
+    width: 80%;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    top: 100px;
+    /* only top works for Sticky Position 
+*/   
+
+/* Position - Relative */
+/* moves on position of own static position 
+.b1 {
+    width: 80%;
+    height: 100px;
+    background-color: red;
+}
+
+.b2 {
+    width: 80%;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.b3 {
+    width: 80%;
+    height: 100px;
+    background-color: yellow;
+}
+*/
+
+/* Position - Absolute */
+/* moves on position of viewport but doesn't float, hang on it's position, takes other elements position
+.b1 {
+    width: 80%;
+    height: 100px;
+    background-color: red;
+}
+
+.b2 {
+    width: 80%;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+}
+
+.b3 {
+    width: 80%;
+    height: 100px;
+    background-color: yellow;
+}
+*/
+
+/* Flag project */
+.flag{
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    background-color: green;
+    position: relative;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    /* top: 90px; */
+    /* left: 430px; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
