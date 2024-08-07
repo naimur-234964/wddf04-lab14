@@ -6,3 +6,12 @@
     border: 1px solid red;
     background: linear-gradient(to top, red, green, blue);
 }
+
+/* Radial Gradient */
+.b{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid red;
+    background: radial-gradient(circle, red 5%, green, blue);
+}
