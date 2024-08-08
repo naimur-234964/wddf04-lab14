@@ -1,0 +1,27 @@
+.big-box{
+    width: 80%;
+    height: 450px;
+    background: ;
+    border: 2px solid red;
+    margin: 50px auto;
+}
+
+.sm-box-1{
+    width: 20%;
+    height: 150px;
+    background: red;
+    position: absolute;
+}
+
+.sm-box-2{
+    width: 50%;
+    height: 150px;
+    background: green;
+    position: absolute;
+}
+
+.sm-box-3{
+    width: 80%;
+    height: 150px;
+    background: blue;
+}
